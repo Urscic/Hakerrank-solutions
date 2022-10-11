@@ -2,8 +2,8 @@ def minion_game(word):
     from itertools import count
     from operator import index
     import string
-    consonants = list(string.ascii_lowercase)
-    vowels = ['a', 'e', 'i', 'o', 'u']
+    consonants = list(string.ascii_uppercase)
+    vowels = ['A', 'E', 'I', 'O', 'U']
     stuart = []
     kevin = []
     for i in range(len(vowels)):
@@ -34,9 +34,6 @@ def minion_game(word):
 
     elif len(kevin)==len(stuart): 
         print('Draw')
-    
-    print(stuart)
-    print(kevin)
       
 if __name__ == '__main__':
     s = input()
