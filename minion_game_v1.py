@@ -1,3 +1,9 @@
+'''
+this verions is working fine with small string, but it needs optimalizatoin for loger ones
+what needs a lot of memo:
+- lists (worked)
+- nested loops (better but not enough)
+'''
 def minion_game(word):
     from itertools import count
     from operator import index
