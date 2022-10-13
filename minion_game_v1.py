@@ -1,8 +1,9 @@
 '''
-this verions is working fine with small string, but it needs optimalizatoin for loger ones
+this verions is working fine with small strings, but it needs optimalizatoin for longer ones
 what needs a lot of memo:
 - lists (worked)
 - nested loops (better but not enough)
+PS. The problem occurs to be using index
 '''
 def minion_game(word):
     from itertools import count
