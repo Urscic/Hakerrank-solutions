@@ -1,7 +1,8 @@
 from itertools import combinations
-n=9
-string='a b c a d b z e o'.split()
-k=4
+n=int(input())
+string=input().split()
+k=int(input())
+tester=[string[i] for i in range(k)]
 result=list(combinations(string,k))
 length=len(result)
 prob=0
